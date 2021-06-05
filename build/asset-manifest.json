@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/AR2ECharacterDataConvertTool/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/AR2ECharacterDataConvertTool/static/js/main.4b240119.chunk.js",
+    "main.js.map": "/AR2ECharacterDataConvertTool/static/js/main.4b240119.chunk.js.map",
+    "runtime-main.js": "/AR2ECharacterDataConvertTool/static/js/runtime-main.a833063d.js",
+    "runtime-main.js.map": "/AR2ECharacterDataConvertTool/static/js/runtime-main.a833063d.js.map",
+    "static/js/2.63bafb75.chunk.js": "/AR2ECharacterDataConvertTool/static/js/2.63bafb75.chunk.js",
+    "static/js/2.63bafb75.chunk.js.map": "/AR2ECharacterDataConvertTool/static/js/2.63bafb75.chunk.js.map",
+    "static/js/3.a921b875.chunk.js": "/AR2ECharacterDataConvertTool/static/js/3.a921b875.chunk.js",
+    "static/js/3.a921b875.chunk.js.map": "/AR2ECharacterDataConvertTool/static/js/3.a921b875.chunk.js.map",
+    "index.html": "/AR2ECharacterDataConvertTool/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/AR2ECharacterDataConvertTool/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.63bafb75.chunk.js.LICENSE.txt": "/AR2ECharacterDataConvertTool/static/js/2.63bafb75.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/AR2ECharacterDataConvertTool/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a833063d.js",
+    "static/js/2.63bafb75.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.4b240119.chunk.js"
+  ]
+}
