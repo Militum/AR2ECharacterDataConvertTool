@@ -29,7 +29,7 @@ function ConvertJson(data) {
     let character = { kind: "character", data: {}};
     character.data.name = data.pc_name;
     character.data.memo = '';
-    character.data.initiative = data.BSUM6;
+    character.data.initiative = parseInt(data.BSUM6, 0);
     character.data.externalUrl = '';
     character.data.status = [
         {label: 'HP', value: data.NP8, max: data.NP8},
