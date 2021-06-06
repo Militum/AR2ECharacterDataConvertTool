@@ -1,0 +1,74 @@
+.app {
+  text-align: center;
+}
+
+.app-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  font-size: calc(10px + 2vmin);
+}
+
+.el-like-input {
+  -webkit-appearance: none;
+  background-color: #282c34;
+  background-image: none;
+  border-radius: 3px;
+  border: 1px solid #dcdfe6;
+  box-sizing: border-box;
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  transition: bordert-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  width: 220px;
+}
+
+.button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 4px;
+  background: #409EFF;
+  border: 2px solid white;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.button:hover {
+  color: #409EFF;
+  background: white;
+}
+.button:active {
+  letter-spacing: 2px;
+}
+.button:after {
+  content: "";
+}
+
+.textarea {
+  width: 640px;
+  height: 400px;
+  background-color: #282c34;
+  color: white;
+}
+
+.frame {
+  width: 660px;
+  background-color: #282c34;
+  color: white;
+}
