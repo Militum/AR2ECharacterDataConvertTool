@@ -68,7 +68,7 @@ function ConvertToCharacter(data) {
         return false;
     }
     const convertData = ConvertJson(data);
-    console.log(convertData);
+    //console.log(convertData);
     return JSON.stringify(convertData);
 }
 
