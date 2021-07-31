@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "アリアンロッド2E ココフォリア用キャラ駒作成ツール",
+  "name": "Arianrhod second edition character maker for Ccfolia",
   "icons": [
     {
       "src": "favicon.ico",
