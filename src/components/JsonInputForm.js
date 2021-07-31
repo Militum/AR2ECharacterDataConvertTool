@@ -22,6 +22,7 @@ class JsonInputForm extends React.Component {
         }
         const convertJson = ConvertToCharacter(JSON.parse(newValue));
         if (!convertJson) {
+            alert ('キャラクター駒に変換できませんでした')
             return;
         }
         this.setState({clipboardCopyData: convertJson});
