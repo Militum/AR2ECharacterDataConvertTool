@@ -22,7 +22,7 @@ class JsonInputForm extends React.Component {
         }
         const convertJson = ConvertToCharacter(JSON.parse(newValue));
         if (!convertJson) {
-            alert ('キャラクター駒に変換できませんでした')
+            alert('入力情報ではキャラクター駒に変換ができません。\n入力データを再度お確かめください。');
             return;
         }
         this.setState({clipboardCopyData: convertJson});
@@ -33,7 +33,7 @@ class JsonInputForm extends React.Component {
             <div>
                 <textarea 
                     value={this.state.value}
-                    placeholder="キャラクターシートのJSON文字列({}で囲まれているやつ)を入力してください"
+                    placeholder="上の枠に表示された文字列({}で囲まれているやつ)を全てこの枠にコピーしてください"
                     onChange={this.onChange}
                     className="textarea"
                 />
