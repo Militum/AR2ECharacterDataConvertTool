@@ -1,5 +1,6 @@
 import React from 'react'
 import CheckUrl from '../logics/UrlCheck';
+import ValidationError from '../logics/ValidationError';
 import '../style.css';
 
 /**
@@ -19,13 +20,17 @@ class UrlInputForm extends React.Component {
 
     onClick(event) {
         event.preventDefault();
-        const jsonUrl = this.state.value + ".json";
-        const checkd = CheckUrl(jsonUrl);
-        if (!checkd) {
-            alert("無効なURLです");
-            return;
+        try {
+            const jsonUrl = this.state.value + ".json";
+            CheckUrl(jsonUrl);
+            this.setState({jsonUrl: jsonUrl});
+        } catch (error) {
+            if (error instanceof ValidationError) {
+                alert(error.message);
+            } else {
+                console.error(error.message);
+            }
         }
-        this.setState({jsonUrl: jsonUrl});
     }
 
     render() {
