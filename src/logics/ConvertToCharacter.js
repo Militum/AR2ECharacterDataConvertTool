@@ -29,7 +29,7 @@ function IsValidCharacterJson(data) {
     for(const index in requiredKeys) {
         const key = requiredKeys[index];
         if (!(key in data)) {
-            console.error(`key not found ${key}`);
+            //console.error(`key not found ${key}`);
             return false;
         }
     }
