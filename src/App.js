@@ -23,6 +23,7 @@ function App() {
                 <br />
                 <JsonInputForm></JsonInputForm>
             </div>
+            <p>アリアンロッド2Eは有限会社ファーイースト・アミューズメント・リサーチの著作物です</p>
         </div>
     );
 }

@@ -6,7 +6,6 @@ function CheckUrl(url) {
         throw new ValidationError(VALIDATION_ERROR_DOMAIN);
     }
     const anchors = url.split('#');
-    console.log(anchors);
     if (anchors.length >= 2) {
         throw new ValidationError(VALIDATION_ERROR_ANCHOR);
     }
